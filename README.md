@@ -3,8 +3,8 @@
 Selamat datang di portofolio data science saya! Di sini Anda akan menemukan berbagai proyek data science yang telah saya kerjakan. Setiap proyek memiliki dokumentasi, notebook, dan kode yang relevan.
 
 ## Daftar Proyek
-1. [Project 1](projects/project1/): Deskripsi singkat proyek 1.
-2. [Project 2](projects/project2/*: Deskripsi singkat proyek 2.
+1. [Project 1]https://github.com/rizawirasena/data-science-portfolio/blob/main/Latihan%20Konversi%20suhu%20dari%20celcius%20ke%20fahrenheit: program untuk mengkonversi suhu dari Celcius ke Fahrenheit
+2. [Project 2]: 
 3. ...
 
 ## Kontak
