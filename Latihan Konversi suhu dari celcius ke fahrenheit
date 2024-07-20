@@ -1,0 +1,38 @@
+# Tugas 1: Program untuk mengkonversi suhu dari Celcius ke Fahrenheit
+def celsius_to_fahrenheit(celsius):
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+
+# Contoh penggunaan
+celsius = float(input("Masukkan suhu dalam Celsius: "))
+fahrenheit = celsius_to_fahrenheit(celsius)
+print(f"{celsius} derajat Celsius adalah {fahrenheit} derajat Fahrenheit")
+
+# Tugas 2: Program untuk menentukan apakah suatu bilangan ganjil atau genap
+def cek_ganjil_genap(bilangan):
+    if bilangan % 2 == 0:
+        return "genap"
+    else:
+        return "ganjil"
+
+# Contoh penggunaan
+bilangan = int(input("Masukkan sebuah bilangan: "))
+hasil = cek_ganjil_genap(bilangan)
+print(f"{bilangan} adalah bilangan {hasil}")
+
+# Tugas 3: Penjelasan singkat tentang struktur data Python
+# List: Struktur data yang dapat diubah dan diindeks, digunakan untuk menyimpan koleksi item.
+contoh_list = [1, 2, 3, 4, 5]
+print("Contoh List:", contoh_list)
+
+# Tuple: Struktur data yang tidak dapat diubah dan diindeks, digunakan untuk menyimpan koleksi item yang tetap.
+contoh_tuple = (1, 2, 3, 4, 5)
+print("Contoh Tuple:", contoh_tuple)
+
+# Set: Struktur data yang tidak diindeks dan tidak memiliki urutan, digunakan untuk menyimpan koleksi item unik.
+contoh_set = {1, 2, 3, 4, 5}
+print("Contoh Set:", contoh_set)
+
+# Dictionary: Struktur data yang diindeks menggunakan kunci dan nilai, digunakan untuk menyimpan pasangan kunci-nilai.
+contoh_dict = {"satu": 1, "dua": 2, "tiga": 3}
+print("Contoh Dictionary:", contoh_dict)
